@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP | Login Page</title>
+</head>
+<body>
+    
+    <h1>NLP App</h1>
+
+    <h3>Login Here</h3>
+
+    <!-- jinja template -->
+    {% if message %}
+        <p style="color: red;">{{ message }}</p>
+    {% endif %}
+
+
+
+
+
+    <form action="/perform_registration" method="post">
+        <label for="">Name</label><br>
+        <input type="text" name="user_ka_name" id="" required><br>
+        <label for="">Email</label><br>
+        <input type="email" name="user_ka_email" id="" required><br>
+        <label for="">Password</label><br>
+        <input type="password" name="user_ka_password" id="" required><br><br>
+
+        <input type="submit" name="" id="" value="Register">
+    </form>
+
+    <p>Already a member? <a href="/">Login Here</a></p>
+</body>
+</html>

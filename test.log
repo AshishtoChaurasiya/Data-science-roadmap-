@@ -1,0 +1,10 @@
+INFO:root:thsi is my very first code for logging
+INFO:root:[1, 2, 3, 4, 5, 6, 7, 7]
+WARNING:root:this is a warning for a user that they have found out 2 in list
+INFO:root:thsi is my very first code for logging
+INFO:root:[1, 2, 3, 4, 5, 6, 7, 7]
+WARNING:root:this is a warning for a user that they have found out 2 in list
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
